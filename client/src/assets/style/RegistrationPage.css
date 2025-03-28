@@ -1,0 +1,33 @@
+.registration-page {
+    background: linear-gradient(135deg, #f9f5f0, #ffd6b3);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.registration-card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+}
+
+.password-strength {
+    margin-top: 5px;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.password-strength.weak {
+    color: #ff4d4d;
+}
+
+.password-strength.medium {
+    color: #ffa500;
+}
+
+.password-strength.strong {
+    color: #4caf50;
+}

@@ -1,0 +1,50 @@
+/* Hero Section */
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../images/Hero.jpg") center/cover no-repeat;
+    /* Replace with your image */
+    padding: 150px 0;
+}
+
+/* Center Text */
+.hero-section h1,
+.hero-section p,
+.hero-section .btn {
+    text-align: center;
+}
+
+/* Features Section */
+.features-section .feature-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.features-section .feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Community Section */
+.community-section {
+    background-color: #f8f9fa;
+}
+
+/* Testimonials Section */
+.testimonials-section .testimonial-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonials-section .testimonial-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Call-to-Action Section */
+.cta-section {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+}
